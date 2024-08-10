@@ -174,6 +174,7 @@ headerTemplate.innerHTML = `
                 <li><a href="05.html">5</a></li>
                 <li><a href="06.html">6</a></li>
 				<li><a href="07.html">7</a></li>
+				<li><a href="08.html">8</a></li>
             </ol>
         </div>
     </div>
