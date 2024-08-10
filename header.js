@@ -168,11 +168,12 @@ headerTemplate.innerHTML = `
             <ol>
 				<li><a href="index.html">i</a></li>
 				<li><a href="index2.html">ii</a></li>
-				<li><a href="02.html">02</a></li>
-                <li><a href="03.html">03</a></li>
-				<li><a href="04.html">04</a></li>
-                <li><a href="05.html">05</a></li>
-                <li><a href="06.html">06</a></li>
+				<li><a href="02.html">2</a></li>
+                <li><a href="03.html">3</a></li>
+				<li><a href="04.html">4</a></li>
+                <li><a href="05.html">5</a></li>
+                <li><a href="06.html">6</a></li>
+				<li><a href="07.html">7</a></li>
             </ol>
         </div>
     </div>
