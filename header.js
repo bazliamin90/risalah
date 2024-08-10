@@ -1,6 +1,7 @@
 const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML = `
+
   <style>
     header {
       position: sticky;
@@ -13,7 +14,7 @@ headerTemplate.innerHTML = `
       border-bottom:2px dashed black;
       list-style:none;
       margin:0;
-      padding:10px;
+      padding:5px;
       text-align:center;
 	  font-size: 12px;
 
@@ -78,6 +79,70 @@ headerTemplate.innerHTML = `
 			.font-family:Martian Mono;
 		}
 		}
+		
+	/* Hide the checkbox */
+        .dropdown input[type="checkbox"] {
+            display: none;
+        }
+
+        /* Style the dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style the dropdown button */
+        .dropdown-button {
+			background-color: #e4ffb2;
+            color: black;
+            padding: 5px 10px;
+            font-size: 0.8rem;
+            border: 1px solid black;
+			border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        /* Style the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 115px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        /* Style each item inside the dropdown */
+        .dropdown-content ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .dropdown-content li {
+            padding: 4px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content li a {
+            color: black;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content li a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Show the dropdown content when the checkbox is checked */
+        .dropdown input[type="checkbox"]:checked ~ .dropdown-content {
+            display: block;
+        }
+		
   </style>
 
 
@@ -88,14 +153,31 @@ headerTemplate.innerHTML = `
 		<a href="index.html">Laman Utama</a>
 		</li>
 
-		<li>
-		<a>|</a>
-		</li>
+		<li>|</li>
 
 		<li>
 		<a href="#">About</a>
 		</li>
+		
+		<li>|</li>
+		
+		<div class="dropdown">
+        <input type="checkbox" id="dropdown-toggle">
+        <label for="dropdown-toggle" class="dropdown-button">Select page ▼</label>
+        <div class="dropdown-content">
+            <ol>
+				<li><a href="index.html">i</a></li>
+				<li><a href="index2.html">ii</a></li>
+				<li><a href="02.html">02</a></li>
+                <li><a href="03.html">03</a></li>
+				<li><a href="04.html">04</a></li>
+                <li><a href="05.html">05</a></li>
+                <li><a href="06.html">06</a></li>
+            </ol>
+        </div>
+    </div>
 	</ul>
+	
   </header>
 `;
 
