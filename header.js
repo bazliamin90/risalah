@@ -150,7 +150,7 @@ headerTemplate.innerHTML = `
     <ul id="nav">
 
 		<li>
-		<a href="index.html">Laman Utama</a>
+		<a href="index.html">Home</a>
 		</li>
 
 		<li>|</li>
