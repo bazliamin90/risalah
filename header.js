@@ -25,7 +25,7 @@ headerTemplate.innerHTML = `
     }
     #nav a{
       display:inline-block;
-      padding:5px 10px;
+      padding:5px 2px;
     }
     #nav ul{
       position:absolute;
@@ -118,12 +118,13 @@ headerTemplate.innerHTML = `
         /* Style each item inside the dropdown */
         .dropdown-content ol {
             list-style: none;
-            margin: 0;
-            padding: 0;
+            margin: 0px;
+            padding: 0px;
+			font-size: 0.8rem;
         }
 
         .dropdown-content li {
-            padding: 4px 16px;
+            padding: 2px 6px;
             text-decoration: none;
             display: block;
         }
@@ -142,6 +143,10 @@ headerTemplate.innerHTML = `
         .dropdown input[type="checkbox"]:checked ~ .dropdown-content {
             display: block;
         }
+		
+		.yellow{
+			background-color: #fff33d;
+		}
 		
   </style>
 
@@ -166,16 +171,16 @@ headerTemplate.innerHTML = `
         <label for="dropdown-toggle" class="dropdown-button">Select page ▼</label>
         <div class="dropdown-content">
             <ol>
-				<li><a href="index.html">i</a></li>
-				<li><a href="index2.html">ii</a></li>
-				<li><a href="02.html">2</a></li>
-                <li><a href="03.html">3</a></li>
-				<li><a href="04.html">4</a></li>
-                <li><a href="05.html">5</a></li>
-                <li><a href="06.html">6</a></li>
-				<li><a href="07.html">7</a></li>
-				<li><a href="08.html">8</a></li>
-				<li><a href="09.html">9</a></li>
+				<li class="yellow"><a href="index.html">&nbspi</a></li>
+				<li class="yellow"><a href="index2.html">ii</a></li>
+				<li><a href="02.html">&nbsp2</a></li>
+                <li><a href="03.html">&nbsp3</a></li>
+				<li><a href="04.html">&nbsp4</a></li>
+                <li><a href="05.html">&nbsp5</a></li>
+                <li><a href="06.html">&nbsp6</a></li>
+				<li><a href="07.html">&nbsp7</a></li>
+				<li><a href="08.html">&nbsp8</a></li>
+				<li><a href="09.html">&nbsp9</a></li>
 				<li><a href="10.html">10</a></li>
 				<li><a href="11.html">11</a></li>
 				<li><a href="12.html">12</a></li>
