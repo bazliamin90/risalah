@@ -161,7 +161,7 @@ headerTemplate.innerHTML = `
 		<li>|</li>
 
 		<li>
-		<a href="#">About</a>
+		<a href="about.html">About</a>
 		</li>
 		
 		<li>|</li>
