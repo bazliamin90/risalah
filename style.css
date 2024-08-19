@@ -40,6 +40,23 @@ footer {
 	background: white;
 }
 
+header{
+	margin: 2rem auto auto auto;
+	border-top: 0.125rem solid black;
+	border-right: 0.125rem solid black;
+	border-left: 0.125rem solid black;
+	box-shadow: 0.313rem 0.313rem black;
+	padding: 1rem;
+}
+
+main{
+	border-right: 0.125rem solid black;
+	border-left: 0.125rem solid black;
+	border-bottom: 0.125rem solid black;
+	box-shadow: 0.313rem 0.313rem black;
+	padding: 1rem;
+}
+
 #td1{
 	border:none; 
 	vertical-align: text-top;
@@ -142,15 +159,15 @@ td{
   bottom: 20px;
   right: 10px;
   z-index: 9;
-  font-size: 18px;
+  font-size: 1.5rem;
   border: none;
   outline: none;
-  background-color: red;
-  color: white;
+  _background-color: white;
+  color: red;
   cursor: pointer;
   padding: 0.1rem 0.1rem;
   border-radius: 4px;
-  opacity: 0.2;
+  opacity: 1;
 }
 .stt:hover {
   opacity: 0.2;
